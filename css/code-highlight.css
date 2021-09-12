@@ -1,6 +1,0 @@
-/* Style for bash scripts: code tags with class "bash" */
-code.bash {
- background-color: black;
- color: grey;
- font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
-}
