@@ -6,19 +6,32 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Pi-Apps X86 - Home</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="https://www.pi-apps-x86.tk/assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-        <!-- Custom coding CSS -->
-        <link href="css/code-highlight.css" rel="stylesheet" />
+        <link href="https://www.pi-apps-x86.tk/css/styles.css" rel="stylesheet" />
+        <!-- Custom div and img CSS -->
+        <link href="https://www.pi-apps-x86.tk/css/div.css" rel="stylesheet" />
+	<link href="https://www.pi-apps-x86.tk/css/img.css" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
+	<button type="button" class="btn btn-primary btn-floating btn-lg" id="btn-back-to-top">
+          <i class="fas fa-arrow-up"></i>
+	  <p style="font-size: 10px">Back to top</p>
+        </button>
+	<style>
+	  #btn-back-to-top {
+  	    position: fixed;
+  	    bottom: 20px;
+  	    right: 20px;
+  	    display: none;
+	  }
+	</style>
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container px-4 px-lg-5">
                 <a class="navbar-brand" href="#page-top">Pi-Apps X86</a>
@@ -48,20 +61,18 @@
                 </div>
             </div>
         </header>
-         <section class="about-section text-center" id="install">
+         <section class="about-section" id="install">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8">
-                        <h2 class="text-white mb-4">How To Install Pi-Apps X86</h2>
-                        <p class="text-white-50">
+                        <h2 class="text-white mb-4 text-center">How To Install Pi-Apps X86</h2>
+                        <p class="text-white-50 text-center">
                             To Install Pi-Apps X86 Open Terminal And run the following:
-                            <pre>
-                                <code class="bash">
-                                    git clone https://github.com/Pi-Apps-Recreates/pi-apps-x86.git 
-                                    chmod +x $HOME/pi-apps-x86/install 
-                                    bash $HOME/pi-apps-x86/install
-                                </code>
-                            </pre>
+                            <div class="a">
+                              git clone https://github.com/Pi-Apps-Recreates/pi-apps-x86.git 
+                              chmod +x $HOME/pi-apps-x86/install <br>
+                              bash $HOME/pi-apps-x86/install 
+			    </div>
                         </p>
                     </div>
                 </div>
@@ -75,67 +86,100 @@
                         <h2 class="text-white mb-4">About This Project</h2>
                         <p class="text-white-50">
                             This Project Was Made For Raspberry Pi Users To Have A Familer Appstore If They Swapped To Linux PC's With amd Or i386 Processers.
-                            This Couldn't Of Happend If Botspot Didnt Make <a href="https://github.com/Botspot/pi-apps">Pi-Apps</a>
+                            This Couldn't Of Happend Without Botspot Making <a href="https://github.com/Botspot/pi-apps">Pi-Apps</a>
                         </p>
                     </div>
                 </div>
             </div>
         </section>
-         <section class="about-section text-center" id="partners">
-            <div class="container px-4 px-lg-5">
+        <!-- Partners-->
+	<section class="about-section text-center" id="partners">
+	  <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8">
-                        <h2 class="text-white mb-4">Partners</h2>
-                        <p class="text-white-50">
-
-                        </p>
-                        <div class="col-md-4 mb-3 mb-md-0">
-                            <div class="card py-4 h-100">
-                        <div class="card-body text-center">
-                            <i class="fas fa-envelope text-primary mb-2"></i>
-                            <h4 class="text-uppercase m-0">Mineshaft 2D</h4>
-                            <hr class="my-4 mx-auto" />
-                            <div class="small text-black-50">We are a small community, focused around Minecraft, and Development. 
-
-                                :first_place: :star_struck::gift::sparkles:[ insert number of Giveaways] in progress!! 
-                                
-                                
-                                FAQ
-                                Why should I join? 
-                                Since we are recently partnered, with another gagamesSky block: Pocket Code, And Lusteria, 
-                                We started a lot of giveaways, such as MS2D: Next giveaways (Next is a special edition of MS2D), Special roles, and other perks! 
-                                We also have seasonal role rewards, to brag on the next month, when more newbies join! Also we have events, and EVEN A FREE NITRO WEB HOOK! And if you get the :apple:role, you get DAILY PINGS! We have Invite Rewards (No need to cross your fingers for a giveaways!)! 
-                                
-                                When is thee game getting released? 
-                                We do not have an exact date of release.. Yet, but by participating in giveaways
-                                you can get Game Tester, and test the game before its release. 
-                                
-                                Sounds nice. Are you looking for staff? 
-                                Yes, at the current moment we are really short at staff. 
-                                WE ARE LOOKING FOR:
-                                A PIXEL ART DESIGNER
-                                GAME TESTERS
-                                PARTNER SERVERS
-                                Also every contributor welcome
-                                
-                                ​ 
-
-                                https://discord.gg/jW5CR2du37/div
-                        </div>
-                    </div>
-                    </div>
+                        <h2 class="text-white mb-4">Partners:</h2>
                     </div>
                 </div>
+            </div>
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100 bg-light">
+                            <div class="card-body text-center">
+                                <img src="https://cdn.discordapp.com/icons/868588717244317697/db0b90a5c48d0bc3db8d4494e8b55102.webp" class="circular text-primary mb-2"></img>
+                                <h4 class="text-uppercase m-0">Mineshaft 2D</h4>
+                                <hr class="my-4 mx-auto" />
+                                <p>
+				We are a small community, focused around Minecraft, and Development.<br><br>
+
+                                FAQ:<br><br>
+
+                                Q: Why should I join?<br>
+                                A: Since we recently partnered with other games such as: Sky block, Pocket Code, And Lusteria.<br>
+				We have a more diverse comunity.<br><br>
+
+                                Q: When is the game getting released?<br>
+                                A: We do not have an exact release date, but by participating in giveaways
+                                you can get the Game Tester role and test the game before it releases.<br><br>
+                                
+                                Q: Sounds nice. Are you looking for staff?
+                                A: Yes, we are currently understaffed.<br><br>
+                                WE ARE LOOKING FOR:<br><br>
+                                A PIXEL ART DESIGNER<br>
+                                GAME TESTERS<br>
+                                SERVERS WHO WANT TO PARTNER<br><br><br>
+                                
+                                Our discord server:
+				<a href="https://discord.gg/jW5CR2du37/">https://discord.gg/jW5CR2du37</a>
+				</p>
+                            </div>
+                        </div>
+                    </div>
+		    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100 bg-light">
+                            <div class="card-body text-center">
+                                <img src="https://pi-ware.ml/images/logo-full.png" class="circular text-primary mb-2"></img>
+                                <h4 class="text-uppercase m-0">Pi-Ware</h4>
+                                <hr class="my-4 mx-auto" />
+                                <p>
+				Pi-Ware is an app store inspired by Botspots pi-apps for the Raspberry Pi that allows you to install apps that you generally can't get from the official repos and/or without an extra amount of work.<br><br>
+                                
+                                Our discord server:
+				<a href="https://discord.gg/BU8F6D8X6s/">https://discord.gg/BU8F6D8X6s</a><br><br>
+				
+				Our website:
+				<a href="https://pi-ware.ml/">https://pi-ware.ml</a>
+				</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--<div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fab fa-github text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Github Issues Page</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50"><a href="https://github.com/Pi-Apps-Recreates/pi-apps-x86/issues">https://github.com/Pi-Apps-Recreates/pi-apps-x86/issues</a></div>
+                            </div>
+                        </div>
+                    </div>-->
             </div>
         </section>
         <!-- Contact-->
-        <section class="contact-section bg-black" id="contact">
+	<section class="contact-section bg-black" id="contact">
+	  <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center text-center">
+                    <div class="col-lg-8">
+                        <h2 class="text-white mb-4">Contact:</h2>
+                    </div>
+                </div>
+            </div>
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
-                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                                <i class="fab fa-discord text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Discord</h4>
                                 <hr class="my-4 mx-auto" />
                                 <div class="small text-black-50"><a href="https://discord.gg/pYe6bhtCYU">https://discord.gg/pYe6bhtCYU</a></div>
@@ -145,25 +189,22 @@
                     <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
-                                <i class="fas fa-envelope text-primary mb-2"></i>
+                                <i class="fab fa-github text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Github Issues Page</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50"><a href="https://github.com/MCRaspRBX/pi-apps-x86/issues">https://github.com/MCRaspRBX/pi-apps-x86/issues</a></div>
+                                <div class="small text-black-50"><a href="https://github.com/Pi-Apps-Recreates/pi-apps-x86/issues">https://github.com/Pi-Apps-Recreates/pi-apps-x86/issues</a></div>
                             </div>
                         </div>
                     </div>
             </div>
         </section>
         <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Made By MCRaspRBX</div></footer>
+        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Website Made By MCRaspRBX And oxmc</div></footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script src="https://www.pi-apps-x86.tk/js/scripts.js"></script>
+	<!-- Scroll to top button js -->
+	<script src="https://www.pi-apps-x86.tk/js/scroll-to-top-button.js"></script>
     </body>
 </html>
